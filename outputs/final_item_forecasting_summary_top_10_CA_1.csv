@@ -1,0 +1,2 @@
+store,forecast_level,forecast_horizon_days,number_of_items,best_item,best_item_mape,weakest_item,weakest_item_mape,average_mape_across_items
+CA_1,item,28,10,FOODS_3_586,17.46157762019681,FOODS_3_120,143.95454402466802,54.129874416339774

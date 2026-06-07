@@ -1,0 +1,5 @@
+forecast_level,model_reliability,recommended_use,final_note
+store,high,"overall demand planning, staffing, inventory allocation",Best performing level due to aggregation stability
+category,high,category-level replenishment and sales planning,Strong performance for FOODS and HOUSEHOLD
+department,medium,department-level stock planning,"Works well for high-volume departments, weaker for low-volume ones"
+item,low to medium,baseline item-level forecasting only,"Needs price, promotion, stockout, and ML-based features"

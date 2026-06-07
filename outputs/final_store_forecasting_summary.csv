@@ -1,0 +1,2 @@
+forecast_level,forecast_horizon_days,number_of_stores,best_store,best_store_mape,weakest_store,weakest_store_mape,average_mape_across_stores
+store,28,10,CA_1,4.203053979160156,WI_2,9.439917409551851,5.934879923015968
