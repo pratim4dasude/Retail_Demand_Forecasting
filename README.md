@@ -344,7 +344,7 @@ streamlit run dashboard/streamlit_app.py
 
 ---
 
-## Roadmap
+<!-- ## Roadmap
 
 Planned next iterations:
 
@@ -356,7 +356,7 @@ Planned next iterations:
 - **Experiment tracking** (MLflow) and a model registry.
 - **Forecast monitoring** dashboard for drift and accuracy decay.
 
----
+--- -->
 
 ## Conclusion
 
