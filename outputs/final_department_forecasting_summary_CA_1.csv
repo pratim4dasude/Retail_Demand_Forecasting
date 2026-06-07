@@ -1,0 +1,2 @@
+store,forecast_level,forecast_horizon_days,number_of_departments,final_feature_set,best_department,best_department_mape,weakest_department,weakest_department_mape,average_mape_across_departments
+CA_1,department,28,7,snap_only,FOODS_3,4.25219388213773,FOODS_1,25.298691894615605,12.972552265606145

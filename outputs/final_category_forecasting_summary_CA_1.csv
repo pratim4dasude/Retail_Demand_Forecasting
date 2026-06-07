@@ -1,0 +1,2 @@
+store,forecast_level,forecast_horizon_days,final_feature_set,best_foods_mape,best_hobbies_mape,best_household_mape
+CA_1,category,28,snap_only,4.096004494983059,13.46993185967629,4.964332273089314

@@ -1,0 +1,2 @@
+store,category,forecast_horizon_days,best_model,best_order,best_seasonal_order,best_MAE,best_RMSE,best_MAPE,best_AIC
+CA_1,FOODS,28,"SARIMAX (1,1,1)(1,1,1,7)","(1, 1, 1)","(1, 1, 1, 7)",119.95348583074079,148.82786477669805,4.096004494983059,26697.407221436086
