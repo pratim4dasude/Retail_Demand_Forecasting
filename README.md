@@ -20,6 +20,19 @@ End-to-end demand forecasting on the **M5 Walmart** dataset. Forecasts the next 
 11. [Roadmap](#roadmap)
 
 ---
+## Notebook Guide
+
+Each notebook focuses on one forecasting level and contains the full workflow for that level, including preprocessing, EDA, baseline modeling, SARIMAX tuning, feature comparison, evaluation, and final outputs.
+
+| Notebook                                | Focus                        | What It Contains                                                                                                                                                                                                   |
+| --------------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [category_level_forecasting.ipynb](notebooks/category_level_forecasting.ipynb)   | Category-level forecasting   | Forecasts `FOODS`, `HOBBIES`, and `HOUSEHOLD` demand for store `CA_1`. Includes category aggregation, EDA, baseline models, SARIMAX tuning, SNAP-only vs calendar feature comparison, and final category insights. |
+| [department_level_forecasting.ipynb](notebooks/department_level_forecasting.ipynb) | Department-level forecasting | Forecasts 7 departments in `CA_1`, such as `FOODS_1`, `FOODS_2`, `FOODS_3`, `HOBBIES_1`, and `HOUSEHOLD_1`. Shows how accuracy changes when moving from category to department granularity.                        |
+| [store_level_forecasting.ipynb](notebooks/store_level_forecasting.ipynb)  | Store-level forecasting      | Forecasts total daily sales for all 10 Walmart stores: `CA_1` to `WI_3`. This notebook gives the strongest results because store-level demand is more stable after aggregation.                                    |
+| [item_level_forecasting.ipynb](notebooks/item_level_forecasting.ipynb)  | Item-level forecasting       | Forecasts the top 10 selling items in `CA_1`. Demonstrates why item-level forecasting is difficult due to sparse demand, zero-sales days, and sudden sales spikes.                                                 |
+                                                                  
+
+---
 
 ## Objective
 
