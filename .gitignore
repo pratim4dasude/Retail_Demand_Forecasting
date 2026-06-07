@@ -1,34 +1,47 @@
 # =========================
-# Python cache
+# Raw data CSV files - do not push
 # =========================
-__pycache__/
-*.py[cod]
-*$py.class
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+
+# Allow only the original zip file in raw folder
+!data/raw/m5-forecasting-accuracy.zip
 
 # =========================
-# Virtual environments
+# Keep processed data and output files
+# data/processed/ will be pushed
+# output/ or outputs/ will be pushed
 # =========================
-venv/
+
+# =========================
+# Virtual environment
+# =========================
 .venv/
+venv/
 env/
 ENV/
 
 # =========================
-# Jupyter Notebook checkpoints
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# Model files - do not push
+# Models - do not push
 # =========================
 models/
 *.pkl
 *.joblib
-*.h5
 *.pt
 *.pth
+*.h5
 *.onnx
 *.sav
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
 
 # =========================
 # Logs
@@ -43,22 +56,9 @@ logs/
 .env.local
 
 # =========================
-# IDE files
+# IDE / OS files
 # =========================
 .vscode/
 .idea/
-
-# =========================
-# OS files
-# =========================
 .DS_Store
 Thumbs.db
-
-# =========================
-# Keep CSV files
-# =========================
-# !*.csv
-data/
-*.xlsx
-*.parquet
-data/
